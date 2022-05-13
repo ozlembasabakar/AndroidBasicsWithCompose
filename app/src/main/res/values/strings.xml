@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AndroidBasicsWithCompose</string>
+    <string name="title_up_left">Text composable</string>
+    <string name="text_up_left">Displays text and follows Material Design guidelines.</string>
+    <string name="title_up_right">Image composable</string>
+    <string name="text_up_right">Creates a composable that lays out and draws a given Painter class object.</string>
+    <string name="title_down_left">Row composable</string>
+    <string name="text_down_left">A layout composable that places its children in a horizontal sequence.</string>
+    <string name="title_down_right">Column composable</string>
+    <string name="text_down_right">A layout composable that places its children in a vertical sequence.</string>
 </resources>
