@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidBasicsWithCompose</string>
+    <string name="happy_bday_text">Happy Birthday Özlem!!</string>
+    <string name="from_txt">\" - from Google\"</string>
 </resources>
