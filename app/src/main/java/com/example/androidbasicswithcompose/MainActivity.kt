@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    BirthdayGreetingWithImage("Happy Birthday Özlem!!", " - from Google")
+                    BirthdayGreetingWithImage(stringResource(R.string.happy_bday_text), stringResource(R.string.from_txt))
                 }
             }
         }
@@ -60,16 +60,16 @@ fun BirthdayGreetingWithText(message: String, from: String) {
             fontSize = 36.sp,
             modifier = Modifier
                 .fillMaxWidth()
-                .wrapContentWidth(align = Alignment.Start)
-                .padding(start = 16.dp, top = 16.dp)
+                .wrapContentWidth(align = Alignment.CenterHorizontally)
+                .padding(start = 8.dp, top = 16.dp, end = 8.dp)
         )
         Text(
             text = from,
             fontSize = 24.sp,
             modifier = Modifier
                 .fillMaxWidth()
-                .wrapContentWidth(align = Alignment.End)
-                .padding(start = 16.dp, end = 16.dp)
+                .wrapContentWidth(align = Alignment.CenterHorizontally)
+                .padding(top = 16.dp, end = 16.dp)
         )
     }
 }
