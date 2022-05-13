@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidBasicsWithCompose</string>
+    <string name="nice_work">Nice work!</string>
+    <string name="task_complited">All tasks completed</string>
 </resources>
