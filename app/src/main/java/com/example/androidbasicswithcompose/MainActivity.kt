@@ -5,12 +5,14 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.Divider
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -54,7 +56,8 @@ fun InfoCardText(text: String, fontWeight: FontWeight) {
                 start = 16.dp,
                 bottom = 8.dp
             ),
-        fontWeight = fontWeight
+        fontWeight = fontWeight,
+        color = Color.DarkGray
     )
 }
 
@@ -75,6 +78,7 @@ fun InfoCard(
         Row {
             Image(painter = email, contentDescription = "")
             InfoCardText(mail, fontWeight)
+
         }
 
         Row {
@@ -89,7 +93,6 @@ fun InfoCard(
     }
 
 }
-
 
 @Composable
 fun LogoCardImage(modifier: Modifier) {
@@ -115,9 +118,14 @@ fun LogoCardInfo(full_name: String, title: String, modifier: Modifier, fontWeigh
         Text(
             text = title,
             modifier = modifier
-                .padding(top = 4.dp, bottom = 64.dp),
-            fontWeight = fontWeight
+                .padding(top = 4.dp, bottom = 40.dp),
+            fontWeight = fontWeight,
+            color = Color.Gray
         )
+
+        Divider(color = Color.White, thickness = 2.dp, modifier = modifier
+            .padding(bottom = 20.dp))
+
     }
 }
 

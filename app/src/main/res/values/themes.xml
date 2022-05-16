@@ -2,6 +2,7 @@
 <resources>
 
     <style name="Theme.AndroidBasicsWithCompose" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:statusBarColor">#eceff1</item>
+        <item name="android:backgroundTint">#eceff1</item>
     </style>
 </resources>
