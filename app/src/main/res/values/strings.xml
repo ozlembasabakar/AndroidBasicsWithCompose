@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidBasicsWithCompose</string>
+
+    <string name="full_name">Özlem Başabakar</string>
+    <string name="title">Android Development Student</string>
+
+    <string name="email">ozlembasabakar@gmail.com</string>
+    <string name="github">github.com/ozlembasabakar</string>
+    <string name="linkedin">linkedin.com/in/ozlembasabakar</string>
 </resources>
